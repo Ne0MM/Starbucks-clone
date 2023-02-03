@@ -1,0 +1,562 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: #000000DE;
+}
+
+p{
+    color: #1E3932;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    padding: 0px 40px;
+    height: 99.5px;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1.2px 2px 0px;
+}
+
+.pin{
+    align-self: center;
+    width: 20px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.navLinks{
+    padding: 40px 0px 40px 24px;
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 2.2px;
+}
+
+.navLinks:hover{
+    color: #069a50;
+}
+
+.logoContainer{
+    width: 51px;
+    height: 51px;
+}
+
+.logoContainer:hover{
+    cursor: pointer;
+}
+
+.leftContainer{
+    display: flex;
+    align-items: center;
+}
+
+.rightContainer{
+    display: flex;
+}
+
+.historiasContainer{
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 47.28;
+    margin-right: 10px;
+}
+
+.pinContainer {
+    display: flex;
+}
+
+.encontreText{
+    padding: 40px 0px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    font-size: small;
+}
+
+.entrarButton{
+    height: 32.8px;
+    width: 78.91px;
+    background-color: white;
+    border: 0.8px solid black;
+    border-radius: 50px;
+    align-self: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 16px;
+    transition: 0.2s;
+}
+
+.entrarButton:hover{
+    transform: scale(0.9);
+    background-color: rgb(243, 243, 243);
+}
+
+.participeButton{
+    height: 32.8px;
+    width: 145.45px;
+    background-color: black;
+    border: 0.8px solid black;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    align-self: center;
+    margin-left: 16px;
+    transition: 0.2s;
+}
+
+.participeButton:hover{
+    transform: scale(0.9);
+}
+
+.historiasLink {
+    display: flex;
+    align-content: center;
+}
+
+.menuLink{
+    width: 24px;
+    height: 40px;
+    display: none;
+    background-color: white;
+    border: none;
+}
+
+.imageCard{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.textCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+}
+
+
+.mobileMenu{
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    transform: translateX(-100%);
+    transition: all 0.2s;
+    background-color: white;
+}
+
+.pinMenuContainer{
+    display: flex;
+    align-items: center;
+}
+
+.menuWhiteButton{
+    background-color: white;
+    border: 0.8px solid black;
+    border-radius: 50px;
+    width: 236.4px;
+    height: 46.4px;
+    transition: 0.2s;
+}
+
+.menuWhiteButton:hover{
+    transform: scale(0.9);
+}
+
+.menuBlackButton{
+    background-color: #000000DE;
+    border: 0.8px solid black;
+    color: white;
+    border-radius: 50px;
+    width: 236.4px;
+    height: 46.4px;
+    transition: 0.2s;
+}
+
+.menuBlackButton:hover{
+    transform: scale(0.9);
+}
+
+.menuItem {
+    height: 48px;
+    padding: 0px 32px;
+    display: flex;
+    align-items: center;
+}
+
+.menuItem:hover {
+    cursor: pointer;
+    background-color: rgb(243, 243, 243);
+}
+
+.topMenu {
+    margin-bottom: 8px;
+}
+
+.bottomMenu{
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.historiasMenuContainer{
+    width: 120px;
+    height: 47.21px;
+    margin: 24px 0px;
+    display: flex;
+}
+
+#historiasMenuLogo{
+    width: 120px;
+    height: 47.21px;
+}
+
+.menuHistoriasLink:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.menuHistoriasLink{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.firstLinks{
+    padding: 0px 0px 0px 40px;
+}
+
+.menuButtonContainer{
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menuPinContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2px;
+    padding: 16px 0px;
+}
+
+.menuPinContainer:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.cardOneContainer{
+    max-width: 1440px;
+    max-height: 420px;
+    margin: auto;
+}
+
+.cardOneImageContainer{
+    display: flex;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.hidden{
+    transform: translateX(0%);
+}
+
+.cardImage{
+    width: 100%;
+    transform: translateX(0%);
+    scroll-snap-align: start;
+}
+
+/* card 2 */
+
+.cardContainer{
+    background-color: #d4e9e2;
+    margin: 32px auto;
+    padding: 32px 48px;
+    max-width: 1440px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#card1{
+    max-width: 881px;
+}
+
+#card1 p{
+    text-align: center;
+    color: #32312d;
+    letter-spacing: 1px;
+    line-height: 200%;
+}
+
+#card1SaibaMais{
+    width: 111px;
+    height: 31px;
+    margin-top: 32px;
+    border: 1px solid black;
+    background-color: #d4e9e2;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+#card1SaibaMais:hover{
+    background-color: #c5d8d2;
+    transform: scale(0.9);
+}
+
+/* Card 3 */
+
+.cardContainerMiddle{
+    display: flex;
+    max-width: 1440px;
+    background-color: #d4e9e2;
+    margin: auto;
+}
+
+
+.textCard p{
+    text-align: center;
+    color: #32312d;
+    letter-spacing: 1px;
+    line-height: 200%;
+}
+
+.textCard h2{
+    font-weight: 200;
+    margin-bottom: 24px;
+    letter-spacing: 3px;
+}
+
+.textWrapper{
+    align-items: center;
+    text-align: center;
+    margin: 32px 48px;
+    max-width: 518px;
+}
+
+.cardImageMiddle{
+    width: 100%;
+}
+
+#baixeButton{
+    margin-top: 32px;
+    width: 100%;
+    max-width: 435px;
+    background-color: #d4e9e2;
+    border: 1px solid black;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+#baixeButton:hover{
+    transform: scale(0.9);
+    background-color: #c5d8d2;
+}
+
+#imageCardTwo{
+    width: 100%;
+}
+
+.cardContainerMiddle{
+    margin-bottom: 32px;
+}
+
+footer{
+    margin-left: 110px;
+}
+
+@media (max-width: 1130px){
+    .participeButton{
+        display: none;
+    }
+}
+
+@media (max-width: 993px){
+    header{
+        padding: 0px 16px;
+        height: 83.5px;
+    }
+
+    .navLinks{
+        padding: 32px 0px 32px 16px;
+    }
+}
+
+@media (max-width: 890px){
+    .entrarButton{
+        display: none;
+    }
+}
+
+@media (max-width: 795px){
+    .pinContainer{
+        display: none;
+    }
+}
+
+@media (max-width: 778px){
+    p{
+        font-size: 13px;
+    }
+
+    footer{
+        margin-left: 10px;
+    }
+
+    header{
+        height: 72px;
+    }
+    .navLinks{
+        display: none;
+    }
+    .historiasLink{
+        display: none;
+    }
+    .menuLink{
+        display: flex;
+        align-items: center;
+        align-self: center;
+    }
+    .cardContainerMiddle{
+        flex-flow: column;
+    }
+    .imageCard{
+        width: 100%;
+    }
+    .textCard{
+        width: 100%;
+    }
+    .secondCard{
+        flex-flow: column-reverse;
+    }
+    #footerTopContainer{
+        flex-flow: column;
+    }
+    #endTextContainer{
+        display: flex;
+        flex-flow: column;
+    }
+    .cardOneImageContainer{
+        height: 264px;
+    }
+}
+
+@media (max-width: 582.84){
+    .cardImage{
+        object-fit: fill;
+    }
+    #card-1{
+        content: url(./Components/card-1-mobile.jpg);
+    }
+    #card-2{
+        content: url(./Components/card-2-mobile.jpg);
+    }
+    #card-3{
+        content: url(./Components/card-3-mobile.jpg);
+    }
+    #card-4{
+        content: url(./Components/card-4-mobile.jpg);
+    }
+}
+
+#footerTopContainer{
+    max-width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+
+#footerBottomContainer ul{
+    list-style-type: none;
+}
+
+.footerRow{
+    display: flex;
+    flex-flow: column;
+    max-width: 180px;
+    padding: 0px 25px;
+}
+
+.footerRow a{
+    padding: 8px 0px;
+    margin-bottom: 8px;
+    color: rgba(0, 0, 0, 0.56);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.footerRow a:hover{
+    color: #32312d;
+}
+
+.footerRow h3{
+    margin-bottom: 24px;
+}
+
+#footerHistorias{
+    width: 120px;
+    height: 47px;
+}
+
+#socialIconContainer{
+    display: flex;
+    padding-top: 30px;
+    margin: 14px 0px 14px 16px;
+}
+
+.iconsContainer{
+    padding: 10px 10px;
+}
+
+.iconsContainer img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.iconsContainer img{
+    transition: 0.2s;
+    width: 32px;
+    height: 32px;
+}
+
+#footerEndContainer{
+    padding: 0px 16px;
+}
+
+.endText{
+    color: rgba(0, 0, 0, 0.8);
+    padding: 0px 15px;
+    border-right: 1px solid black;
+    border-color: rgba(0, 0, 0, 0.56);
+    transition: 0.2s ease-out;
+}
+
+.endText:hover{
+    color: rgba(0, 0, 0, 0.56);
+}
+
+footer{
+    margin-bottom: 75px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #33433d;
+}

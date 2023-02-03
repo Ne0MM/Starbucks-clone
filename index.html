@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Starbucks Coffee Company</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+        <div class="leftContainer">
+
+            <div class="logoContainer">
+                <img src="./Components/starbucks-nav-logo.svg" alt="starbucksLogo">
+            </div>
+
+            <a class="navLinks firstLinks">MENU</a>
+            <a class="navLinks">REWARDS</a>
+            <a class="navLinks">NOSSO CAFÉ</a>
+            <a class="navLinks">IMPACTO SOCIAL</a>
+        </div>
+
+        <div class="rightContainer">
+            <a class="historiasLink">
+                <div class="historiasContainer">
+                    <img src="./Components/sb-historias-logo.svg" alt="starbuck-historias">
+                </div>    
+            </a>
+
+            <a class="pinContainer">
+                <img src="./Components/pin-icon.svg" alt="starbucks-pin" class="pin">
+                <p class="encontreText">Encontre uma loja</p>
+            </a>
+
+            <button class="entrarButton">
+                <p class="entrarText">Entrar</p>
+            </button>
+
+            <button class="participeButton">Participe Agora</button>
+            <button type="button" class="menuLink" id="menuButton" onclick="menuHandler()">
+                <img src="./Components/menu-icon.svg" alt="menu-icon">
+            </button>
+        </div>
+    </header>
+
+    </div>
+
+    <!-- Card 1 -->
+    <section>
+    
+        <div class="cardOneContainer">
+            <div class="cardOneWrapper">
+                    <div class="cardOneImageContainer">
+                        <img src="./Components/card-1.jpg" alt="card-1" id="card-1" class="cardImage">
+                        <img src="./Components/card-2.jpg" alt="card-2" id="card-2" class="cardImage">
+                        <img src="./Components/card-3.jpg" alt="card-3" id="card-3" class="cardImage">
+                        <img src="./Components/card-4.jpg" alt="card-4" id="card-4" class="cardImage">
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- Card 2 -->
+    <section>
+
+        <div class="cardContainer">
+            <div id="card1">
+                <p>Conforme abrimos nossas lojas, permanecemos no 
+                    compromisso com a saúde e bem-estar de nossos partners e consumidores.</p>
+            </div>
+            <button id="card1SaibaMais">Saiba Mais</button>
+        </div>
+
+    </section>
+
+    <!-- Card 3 -->
+
+    <section>
+
+        <div class="cardContainerMiddle">
+            <div class="imageCard">
+                <img src="./Components/card-5.jpg" alt="card-5" class="cardImageMiddle">
+            </div>
+            <div class="textCard">
+                <div class="textWrapper">
+                    <h2>Voltando ao que amamos juntos</h2>
+                    <p>Queridos clientes, partners e amigos, estamos acompanhando a situação atual do Brasil em relação ao COVID-19, 
+                        focados na segurança e bem estar dos nossos partners (como chamamos os nossos colaboradores) e clientes. 
+                        Seguimos os critérios de quarentena de cada munícipo que temos lojas. As lojas abertas ou com entrega via delivery,
+                        através do nosso parceiro Rappi, estão seguindo as orientações das autoridades de saúde.
+                    </p>
+                    <button id="baixeButton">
+                        <span id="spanBaixe">Baixe nosso App e verifique as lojas em funcionamento</span> 
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Card 4 -->
+
+    <section>
+
+        <div class="cardContainerMiddle secondCard">
+            <div class="textCard" id="left2Card">
+                <div class="textWrapper">
+                    <h2>Saboreie uma pausa</h2>
+                    <p>
+                        Saboreie uma pausa com uma de nossas bebidas
+                    </p>
+                    <button id="card1SaibaMais">Saiba Mais</button>
+                </div>
+            </div>
+            <div class="imageCard" id="rigth2Card">
+                <img src="./Components/card-6.jpg" alt="card-6" class="cardImageMiddle" id="imageCardTwo">
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="cardContainerMiddle">
+            <div class="imageCard">
+                <img src="./Components/card-7.jpg" alt="card-5" class="cardImageMiddle">
+            </div>
+            <div class="textCard">
+                <div class="textWrapper">
+                    <h2>Esperança e união</h2>
+                    <p>Em parceria com ONGs, Partners da Starbucks se mobilizam para entregar café às comunidades.
+                    </p>
+                    <button id="card1SaibaMais">Saiba Mais</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="cardContainerMiddle secondCard">
+            <div class="textCard" id="left2Card">
+                <div class="textWrapper">
+                    <h2>Coisas boas estão acontecendo</h2>
+                    <p>
+                        Um gesto de carinho àqueles que estão na linha de frente todos os dias.
+                    </p>
+                    <button id="card1SaibaMais">Saiba Mais</button>
+                </div>
+            </div>
+            <div class="imageCard" id="rigth2Card">
+                <img src="./Components/card-8.jpg" alt="card-8" class="cardImageMiddle" id="imageCardTwo">
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div id="footerTopContainer">
+            <div class="footerRow">
+                <h3>Sobre nós</h3>
+                <a class="footerLink">Nossa empresa</a>
+                <a class="footerLink">Nosso café</a>
+                <a class="footerLink">Atendimento ao cliente</a>
+                <a class="footerLink">Compliance e Privacidade</a>
+                <a class="footerLink">Código de Ética e Conduta SouthRock</a>
+            </div>
+            <div class="footerRow">
+                <h3>Carreira</h3>
+                <a class="footerLink">Central de carreiras</a>
+            </div>
+            <div class="footerRow">
+                <h3>Impacto Social</h3>
+                <a class="footerLink">Comunidade</a>
+                <a class="footerLink">Meio Ambiente</a>
+                <a class="footerLink">Fornecimento ético</a>
+                <a class="footerLink">Histórias Starbucks</a>
+            </div>
+            <div class="footerRow">
+                <h3>Starbucks Rewards</h3>
+                <a class="footerLink">Baixe o aplicativo</a>
+                <a class="footerLink">Termos & Condições do Starbucks Card</a>
+                <a class="footerLink">Termos & Condições do Starbucks Rewards</a>
+                <a class="footerLink">Termos & Condições do Gift Card</a>
+                <a class="footerLink">Termos & Condições de promoções Starbucks</a>
+                <a class="footerLink">Termos & Condições Peça e Pague pelo Celular e Retire na Loja</a>
+            </div>
+        </div>
+        <div id="footerBottomContainer">
+            <ul id="socialIconContainer">
+                <li class="iconsContainer">
+                    <img src="./Components/icon-spotify.svg" alt="icon-spotify">
+                </li>
+                <li class="iconsContainer">
+                    <img src="./Components/icon-facebook.svg" alt="icon-facebook">
+                </li>
+                <li class="iconsContainer">
+                    <img src="./Components/icon-linkedin.svg" alt="icon-linkedin">
+                </li>
+                <li class="iconsContainer">
+                    <img src="./Components/icon-instagram.svg" alt="icon-instagram">
+                </li>
+                <li class="iconsContainer">
+                    <img src="./Components/icon-youtube.svg" alt="icon-youtube">
+                </li>
+                <li class="iconsContainer">
+                    <img src="./Components/icon-twitter.svg" alt="icon-twitter">
+                </li>
+            </ul>
+        </div>
+
+        <div id="footerEndContainer">
+            <div id="endTextContainer">
+                <a class="endText">Política de privacidade</a>
+                <a class="endText">Política de troca de produto</a>
+                <a class="endText">Termos de uso</a>
+                <a class="endText">Política de Cookies</a>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- mobileMenu -->
+    <div class="mobileMenu" id="menu">
+        <div class="topMenu">
+            <ul>
+                <li class="menuItem"><a>Menu</a></li>
+                <li class="menuItem"><a>Rewards</a></li>
+                <li class="menuItem"><a>Nosso Café</a></li>
+                <li class="menuItem"><a>Impacto Social</a></li>
+            </ul>
+        </div>
+        <div class="bottomMenu">
+            <div class="historiasMenuContainer">
+                <a class="menuHistoriasLink">
+                    <img src="./Components/sb-historias-logo.svg" alt="historias-Starbucks" id="historiasMenuLogo">
+                </a>
+            </div>
+            <div class="menuButtonContainer">
+                <button class="menuWhiteButton">Entrar</button>
+            </div>
+            <div class="menuButtonContainer">
+                <button class="menuBlackButton">Particie agora</button>
+            </div>
+            <div class="menuPinContainer">
+                <a class="pinMenuContainer">
+                    <img src="./Components/pin-icon.svg" alt="pin-icon" class="pin">
+                    <span>Encontre uma loja</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
